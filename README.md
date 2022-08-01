@@ -1,7 +1,6 @@
 # CarouselPager
 广告轮播、Adapter + View模式、可循环轮播  
 # 预览  
-竖屏效果  
 ![效果](./ic_preview.png)
 # 资源
 |名字|资源| 
