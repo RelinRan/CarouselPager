@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CarouselPager">
+        <!--指示器选中资源-->
+        <attr name="indicatorSelected" format="reference" />
+        <!--指示器未选中资源-->
+        <attr name="indicatorUnSelected" format="reference" />
+        <!--是否自动播放-->
+        <attr name="autoPlay" format="boolean" />
+        <!--是否循环，对应Adapter必须设置相同参数-->
+        <attr name="cycle" format="boolean" />
+        <!--动画时长-->
+        <attr name="duration" />
+        <!--指示器位置-->
+        <attr name="indicatorGravity">
+            <flag name="left" value="3" />
+            <flag name="top" value="48" />
+            <flag name="right" value="5" />
+            <flag name="bottom" value="80" />
+            <flag name="center" value="17" />
+            <flag name="center_horizontal" value="1" />
+            <flag name="center_vertical" value="16" />
+        </attr>
+        <!--指示器间距-->
+        <attr name="indicatorLayoutMargin" format="dimension" />
+        <!--指示器左边间距-->
+        <attr name="indicatorLayoutMarginLeft" format="dimension" />
+        <!--指示器上边间距-->
+        <attr name="indicatorLayoutMarginTop" format="dimension" />
+        <!--指示器右边间距-->
+        <attr name="indicatorLayoutMarginRight" format="dimension" />
+        <!--指示器下边间距-->
+        <attr name="indicatorLayoutMarginBottom" format="dimension" />
+        <!--指示器相互之间间距-->
+        <attr name="indicatorMargin" format="dimension" />
+        <!--指示器相互之间左边间距-->
+        <attr name="indicatorMarginLeft" format="dimension" />
+        <!--指示器相互之间上边间距-->
+        <attr name="indicatorMarginTop" format="dimension" />
+        <!--指示器相互之间右边间距-->
+        <attr name="indicatorMarginRight" format="dimension" />
+        <!--指示器相互之间底部间距-->
+        <attr name="indicatorMarginBottom" format="dimension" />
+        <!--轮播个数-->
+        <attr name="itemCount" format="integer"/>
+        <!--轮播item布局资源-->
+        <attr name="listItem" format="reference"/>
+    </declare-styleable>
+</resources>

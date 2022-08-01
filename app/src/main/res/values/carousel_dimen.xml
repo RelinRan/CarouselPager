@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--指示器圆点宽度-->
+    <dimen name="carousel_indicator_width">10dp</dimen>
+    <!--指示器圆点高度-->
+    <dimen name="carousel_indicator_height">10dp</dimen>
+</resources>

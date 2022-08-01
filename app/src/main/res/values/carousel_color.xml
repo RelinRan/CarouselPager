@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--指示器选中颜色-->
+    <color name="carousel_indicator_selected_color">#3DDB86</color>
+    <!--指示未选中颜色-->
+    <color name="carousel_indicator_unselected_color">#EBE7ED</color>
+    <!--默认轮播item背景颜色-->
+    <color name="carousel_item_background_color">#F2F2F2</color>
+</resources>
